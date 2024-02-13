@@ -18,4 +18,5 @@ jobs:
       - name: mock lint
         run: |
           echo "linting..."
+          exit 1
           echo "done"
